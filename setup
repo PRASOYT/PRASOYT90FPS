@@ -1,0 +1,12 @@
+apt update
+apt install toilet
+
+
+
+if [ -f $HOME/FPSTOOL/FPSTOOL ]; then
+chmod +x $HOME/FPSTOOL/FPSTOOL
+mv $HOME/FPSTOOL/FPSTOOL $PREFIX/bin
+fi
+
+chmod +x 90FPS.sh
+./90FPS.sh
