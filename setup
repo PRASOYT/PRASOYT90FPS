@@ -1,6 +1,11 @@
 apt update
 apt install toilet
 
+pkg install libandroid-wordexp
+
+pkg install zip
+pkg install unzip
+
 
 
 if [ -f $HOME/FPSTOOL/FPSTOOL ]; then
